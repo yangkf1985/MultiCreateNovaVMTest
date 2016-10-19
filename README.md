@@ -23,8 +23,8 @@ python get_test_result.py local 1
 
 ### 配置
 ```
-sql_conn='mysql://autopool:autopoolpassword@192.168.111.2:3306/xipu_nova?charset=utf8' 
-auth_url='http://192.168.10.10:35357/v2.0/tokens' 
+sql_conn='mysql://autopool:autopoolpassword@192.168.111.2:3306/nova?charset=utf8' 
+auth_url='http://192.168.10.10:5000/v2.0/tokens' 
 tenant_name='admin' 
 user_name='admin' 
 user_password='admin_pass' 
